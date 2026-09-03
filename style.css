@@ -407,12 +407,12 @@ p{
         display: flex;
     }
     
-    .about__image {
-        /* width: 322px; */
-        height: auto;
-        right: 0;
-        translate: 0;
-    }
+  .about__image {
+    width: 250px;
+    height: auto;
+    right: 0;
+    translate: 0;
+}
     
     .about__text {
         width: 70vw;
