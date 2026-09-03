@@ -355,10 +355,12 @@ p{
 .about__image {
     margin-inline: auto;
     /* position: absolute;
-    top: 0;
-    left: 50%;
-    translate: -50%; */
+       top: 0;
+       left: 50%;
+       translate: -50%; */
     display: block;
+    width: 250px;
+    height: auto;
 }
 .about__text {
     position: relative;
