@@ -364,8 +364,8 @@ animation: tagline-gradient 7s linear infinite;
 .about__image {
     margin-inline: auto;
     display: block;
-    width: 250px;
-    height: 250px;
+    width: 500px;
+    height: 500px;
     object-fit: cover;
     border-radius: 50%;
 }
@@ -415,8 +415,8 @@ animation: tagline-gradient 7s linear infinite;
     }
     
   .about__image {
-    width: 250px;
-    height: 250px;
+    width: 500px;
+    height: 500px;
     right: 0;
     translate: 0;
 }
