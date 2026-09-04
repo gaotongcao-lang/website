@@ -4,6 +4,7 @@
 --background: #0B1020;
 --text-colour-white: #E8EEF7;
 --link-hover: #6EE7F9;
+--accent: #6EE7F9;
 --invalid: hsl(7, 100%, 68%);
     --link-transition: 0.3s ease-in-out;
     --fontsize-18: 1.125rem;
