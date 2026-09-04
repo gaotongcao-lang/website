@@ -1,11 +1,9 @@
 /*############################# GLOBAL styles #############################*/
 
 :root{
---background: #08090D;
---text-colour-white: #F5F5F5;
---link-hover: #C6FF4A;
---accent: #C6FF4A;
---accent-secondary: #FF5C8A;
+--background: #0B1020;
+--text-colour-white: #E8EEF7;
+--link-hover: #6EE7F9;
 --invalid: hsl(7, 100%, 68%);
     --link-transition: 0.3s ease-in-out;
     --fontsize-18: 1.125rem;
@@ -68,12 +66,12 @@ nav{
 
 a{
     transition: color var(--link-transition);
-    color: var(--text-colour-white);
+    color: #E8EEF7;
     text-decoration: none;
 }
 
 a:hover{
-    color: var(--link-hover);
+    color: #6EE7F9;
     cursor: pointer;
 }
 
