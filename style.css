@@ -409,10 +409,11 @@ animation: tagline-gradient 7s linear infinite;
 }
 
 @media (min-width: 37.5em) {
-    .about__wrapper {
-        padding: 60px 0;
-        display: flex;
-    }
+   .about__wrapper {
+    padding: 60px 0;
+    display: flex;
+    align-items: center;
+}
     
   .about__image {
     width: 500px;
