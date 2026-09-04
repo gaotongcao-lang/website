@@ -363,13 +363,11 @@ animation: tagline-gradient 7s linear infinite;
 
 .about__image {
     margin-inline: auto;
-    /* position: absolute;
-       top: 0;
-       left: 50%;
-       translate: -50%; */
     display: block;
     width: 250px;
-    height: auto;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
 }
 .about__text {
     position: relative;
@@ -418,7 +416,7 @@ animation: tagline-gradient 7s linear infinite;
     
   .about__image {
     width: 250px;
-    height: auto;
+    height: 250px;
     right: 0;
     translate: 0;
 }
