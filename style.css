@@ -975,13 +975,7 @@ nav.article-nav {
     text-align: center;
 } */
 .bloglist-image {
-    width: 250px !important;
-    max-width: 250px !important;
-    height: auto !important;
-    max-height: none !important;
-    object-fit: contain;
-    flex: none !important;
-    transform: translateY(-15px);
+    width: 100px !important;
 }
 
 .bloglist__wrapper {
