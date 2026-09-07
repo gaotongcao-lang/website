@@ -981,4 +981,8 @@ nav.article-nav {
     max-height: none !important;
     object-fit: contain;
     flex: none !important;
+    transform: translateY(-15px);
+}
+.bloglist__wrapper {
+    padding-bottom: 40px;
 }
