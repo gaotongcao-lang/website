@@ -810,45 +810,45 @@ nav.article-nav {
     margin-top: 1.5rem;
 }
 
-.article-details{
-
+.article-details {
 }
 
-.article-details__wrapper{
+.article-details__wrapper {
     padding-block-start: 70px;
     margin-block-end: 60px;
 }
 
-.article-details__title{
-
+.article-details__title {
 }
 
-.article-details__date{
+.article-details__date {
     margin-bottom: 50px;
 }
 
-.article-details__info{
+.article-details__info {
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
 
-.article-details__details{
-    order: 2;
+.article-details__text {
+    width: 100%;
+}
+
+.article-details__details {
     padding-block-end: 20px;
 }
 
-.article-details__image{
-    border: 2px #ACD3E8 solid;
-    width: 100%;
-    order: 1;
-    /* This height is a placeholder for the image */
-    height: 200px; 
-    max-height: 200px;
+.article-details__link {
+    margin-top: 20px;
 }
 
-.topic-tag {
-
+.article-details__image {
+    border: 2px #ACD3E8 solid;
+    width: 100%;
+    height: auto;
+    max-height: none;
+    display: block;
 }
 
 @media (min-width: 37.5em) {
@@ -858,34 +858,36 @@ nav.article-nav {
         pointer-events: all;
     }
 
-    .article-details__wrapper{
-    }
-
-    .article-details__image{
-            /* This height is a placeholder for the image */
-        height: 300px; 
-        max-height: 300px;
+    .article-details__image {
+        height: auto;
+        max-height: none;
     }
 }
 
 @media (min-width: 62.5em) {
-    .article-details__wrapper{
+
+    .article-details__wrapper {
         margin-block-end: 100px;
     }
-    
-    .article-details__info{
+
+    .article-details__info {
         flex-direction: row;
+        align-items: flex-start;
         gap: 60px;
     }
 
-    .article-details__details{
-        order: 1;
-        max-width: 50%;
-        padding-block-end: 0;
+    .article-details__text {
+        width: 50%;
     }
-    
-    .article-details__image{
-        order: 2;
+
+    .article-details__image {
+        width: 50%;
+        height: auto;
+        max-height: none;
+    }
+
+    .article-details__details {
+        padding-block-end: 20px;
     }
 }
 
