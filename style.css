@@ -975,10 +975,10 @@ nav.article-nav {
     text-align: center;
 } */
 .bloglist-image {
-    width: 33% !important;
+    width: 250px !important;
+    max-width: 250px !important;
     height: auto !important;
-    max-width: 33% !important;
     max-height: none !important;
     object-fit: contain;
-    flex: 0 0 33%;
+    flex: none !important;
 }
