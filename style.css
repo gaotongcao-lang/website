@@ -982,8 +982,8 @@ BLOG LIST IMAGE
     object-fit: contain;
     flex: none;
     margin-left: auto;
+    margin-top: -35px;
 }
-
 .bloglist__wrapper {
     padding-bottom: 40px;
 }
