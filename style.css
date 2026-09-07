@@ -983,6 +983,7 @@ nav.article-nav {
     flex: none !important;
     transform: translateY(-15px);
 }
+
 .bloglist__wrapper {
     padding-bottom: 40px;
 }
