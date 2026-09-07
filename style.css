@@ -981,3 +981,7 @@ nav.article-nav {
 .bloglist__wrapper {
     padding-bottom: 40px;
 }
+.bloglist-image {
+    width: 100px !important;
+    height: 100px !important;
+}
