@@ -988,15 +988,11 @@ nav.article-nav {
 */
 
 .bloglist-image {
-    width: 250px !important;
-    max-width: 250px !important;
-    height: auto !important;
-    max-height: none !important;
-    object-fit: contain;
-    flex: none !important;
-    transform: translateY(-15px);
+    width: 100px !important;
+    height: 100px !important;
+    max-width: 100px !important;
+    display: block !important;
 }
-
 .bloglist__wrapper {
     padding-bottom: 40px;
 }
