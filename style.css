@@ -976,4 +976,9 @@ nav.article-nav {
 } */
 .bloglist-image {
     width: 33% !important;
+    height: auto !important;
+    max-width: 33% !important;
+    max-height: none !important;
+    object-fit: contain;
+    flex: 0 0 33%;
 }
