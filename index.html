@@ -3,7 +3,7 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
-<html>
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <title>Evan Cao | Personal Portfolio</title>
@@ -13,9 +13,8 @@
         <link rel="stylesheet" href="style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Pathway+Extreme:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap" 
-              rel="stylesheet">
-        <script type="module" src="script.js" async defer></script>    
+        <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Noto+Serif+SC:wght@700;900&display=swap" rel="stylesheet">
+        <script type="module" src="script.js"></script>    
     </head>
     <body>
         <header class="header">
@@ -32,16 +31,22 @@
         </header>
         <main class="main">
             <section class="intro">
-                <div class="wrapper">
-                    <div class="intro__container">
-                        <h1 class="intro__headline">大家好,<br>我是曹高桐</h1>
-                        <p class="intro__tagline"><span class="intro__tagline-highlight"> Hello, I'm Evan Cao. </span></p> 
-                    </div>    
+                <div class="wrapper intro__grid">
+                    <div class="intro__container reveal">
+                        <p class="intro__eyebrow"><span class="intro__dot" aria-hidden="true"></span>High school student · Xi'an, China</p>
+                        <h1 class="intro__title">Hello, I'm <span>Evan Cao.</span></h1>
+                        <p class="intro__cn">大家好，我是曹高桐</p>
+                        <p class="intro__lead">I learn with data, explore with curiosity, and create things I care about.</p>
+                        <div class="intro__actions">
+                            <a href="#blog" class="button">See my work</a>
+                            <a href="#contact" class="button button--ghost">Say hi</a>
+                        </div>
+                    </div>
                 </div>
             </section>
             <section class="about" id="about">
                 <div class="wrapper about__wrapper section-border">
-                    <picture class="about__picture">
+                    <picture class="about__picture reveal">
                         <source 
                         media="(min-width: 62.5em)" 
                         srcset="assets/evan.jpg">
@@ -53,7 +58,7 @@
                           src="assets/evan.jpg"
                           alt="Photo of Evan Cao">
                     </picture>
-                    <div class="about__text">
+                    <div class="about__text reveal">
                         <h1 class="about__headline">I learn.<br>I explore. <span>I create.</span></h1>
                        <p class="about__description">I'm a student from Xi'an, China, interested in data, technology, creativity, basketball, music, gaming, and exploring the world.</p>   
                     </div>
@@ -61,15 +66,15 @@
             </section>
             <section class="skills">
                 <div class="wrapper skills__wrapper section-border">
-                    <div class="skills__item">
+                    <div class="skills__item reveal">
                         <h3 class="skills__heading">High School Student</h3>
 <p class="skills__description">Learning, exploring, and building my future.</p>
                     </div>
-                    <div class="skills__item">
+                    <div class="skills__item reveal">
                         <h3 class="skills__heading">Air Quality Connoisseur</h3>
                         <p class="skills__description">15 years of experience.</p>
                     </div>
-                    <div class="skills__item">
+                    <div class="skills__item reveal">
                         <h3 class="skills__heading">Gao Tong</h3>
                         <p class="skills__description">A name, a nickname, and a little bit of me.</p>
                     </div>
@@ -77,24 +82,24 @@
             </section>
             <section class="blog" id="blog">
                 <div class="wrapper blog__wrapper section-border">
-                    <h2 class="blog__headline">Work + Life</h2>
+                    <h2 class="blog__headline reveal">Work + Life</h2>
                     <div class="blog__grid">
-                       <div class="blog__item"> 
+                       <div class="blog__item reveal"> 
     <img src="assets/basketball.jpg" alt="Basketball team photo">
     <h3 class="blog__item-headline">Basketball</h3>
     <p class="blog__item-description">Memories with my basketball teammates in China.</p>
 </div>
-                       <div class="blog__item"> 
+                       <div class="blog__item reveal"> 
     <img src="assets/sing.jpg" alt="Singing performance">
     <h3 class="blog__item-headline">Sing</h3>
     <p class="blog__item-description">Performing on stage with my classmates at our school New Year's Eve celebration.</p>
 </div>
-                       <div class="blog__item"> 
+                       <div class="blog__item reveal"> 
     <img src="assets/game.jpg" alt="Gaming">
     <h3 class="blog__item-headline">Game</h3>
     <p class="blog__item-description">A moment from my time playing Red Dead Redemption 2.</p>
 </div>
-                       <div class="blog__item"> 
+                       <div class="blog__item reveal"> 
     <img src="assets/life.jpg" alt="A day at the beach with friends">
     <h3 class="blog__item-headline">Life</h3>
     <p class="blog__item-description">A day at the beach with friends.</p>
@@ -108,7 +113,7 @@
                 </div>
             </section>
             <section class="contact" id="contact">
-                <h2 class="contact__headline">Let's chat</h2>
+                <h2 class="contact__headline reveal">Let's chat</h2>
                 <div class="wrapper contact__wrapper section-border">
                     <div class="contact__text">
                         <h3 class="contact__name">Evan Cao</h3>
