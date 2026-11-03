@@ -631,3 +631,25 @@ a:focus-visible, input:focus-visible, textarea:focus-visible, button:focus-visib
     .js .reveal { opacity: 1; transform: none; }
     html { scroll-behavior: auto; }
 }
+
+/* ---------- project write-up: timeline + reflections ---------- */
+.proj-section { padding-block: 2.5rem 1rem; }
+.proj-section__wrapper { display: grid; gap: 1.5rem; }
+.proj-label { font-size: .8rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--accent); }
+.proj-heading { font-size: clamp(2rem, 4.5vw, 3.25rem); line-height: 1.02; letter-spacing: -.035em; margin: .25rem 0 0; }
+.proj-sub { color: var(--ink-soft); max-width: 60ch; margin: 0; }
+.timeline { list-style: none; margin: 0; padding: 0; border-left: 2px solid var(--line); margin-left: .5rem; }
+.timeline li { position: relative; padding: 0 0 1.75rem 1.75rem; }
+.timeline li::before { content: ""; position: absolute; left: -.5rem; top: .35rem; width: .875rem; height: .875rem; border-radius: 50%; background: var(--accent); box-shadow: 0 0 0 4px var(--paper); }
+.timeline--next li::before { background: var(--paper); border: 2px solid var(--accent); }
+.timeline time { display: block; font-size: .85rem; font-weight: 700; color: var(--accent); letter-spacing: .02em; }
+.timeline h3 { margin: .15rem 0 .25rem; font-size: 1.15rem; line-height: 1.3; }
+.timeline p { margin: 0; color: var(--ink-soft); max-width: 62ch; }
+.timeline .tag { display: inline-block; margin-left: .5rem; padding: .05rem .55rem; border-radius: 99px; font-size: .72rem; font-weight: 700; vertical-align: middle; background: var(--paper-2); color: var(--ink-soft); }
+.lessons { display: grid; gap: 1rem; }
+@media (min-width: 50em) { .lessons { grid-template-columns: repeat(2, 1fr); } }
+.lesson { padding: clamp(1.25rem, 2.5vw, 2rem); background: var(--paper-2); border-radius: var(--radius-md); }
+.lesson h3 { margin: 0 0 .5rem; font-size: 1.2rem; line-height: 1.25; }
+.lesson p { margin: 0; color: var(--ink-soft); }
+.lesson p + p { margin-top: .6rem; }
+.proj-quote { margin: 0; padding: 1.5rem clamp(1.25rem, 3vw, 2.5rem); border-left: 4px solid var(--accent); font-size: clamp(1.15rem, 2vw, 1.45rem); line-height: 1.45; }
